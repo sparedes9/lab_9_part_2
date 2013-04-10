@@ -5,6 +5,10 @@ void setup() {
 void draw() {
   // build a house!
   noStroke();
+  drawHouse();
+}
+
+void drawHouse(){
   fill(57);
   triangle(190,200,250,125,310,200);
   fill(127);
